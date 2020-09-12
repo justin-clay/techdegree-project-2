@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+}
+
+.main-nav li {
+    display: block;
+
+}
+
