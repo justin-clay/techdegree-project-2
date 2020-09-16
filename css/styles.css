@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: whitesmoke;
+    
     padding-bottom: 2em;
 }
 
@@ -17,6 +17,11 @@ p {
     max-width: 90%;
     margin: auto;
     text-align: center;
+}
+
+header,
+footer {
+    background-color: whitesmoke;
 }
 
 /* ---- Class Selectors ---- */
