@@ -1,15 +1,24 @@
 body {
     text-align: center;
     font-family: 'Bitter', serif;
+    margin: auto;
 }
 
 header {
     background-color: whitesmoke;
+    padding-bottom: 2em;
 }
 
 img {
-    width: 60%;
+    margin: 1em;
 }
+
+p {
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
 
 
 .main-nav li {
@@ -37,5 +46,12 @@ img {
 .name {
     margin: auto;
     padding: .7em 0;
-    font-family: 'Bitter', serif;
+}
+
+.main-header img {
+    width: 60%;
+}
+
+.portfolio img {
+    width: 90%;
 }
