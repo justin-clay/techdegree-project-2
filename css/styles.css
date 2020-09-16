@@ -53,6 +53,17 @@ footer {
     width: 60%;
 }
 
+.footer-name h5 {
+    float: left;
+    margin: 1em;
+}
+
+.footer-name a {
+    float: right;
+    margin: 1em;
+}
+
+
 /* ---- ID Selectors ---- */
 
 #portfolio img {
@@ -62,3 +73,4 @@ footer {
 #portfolio h2 {
     margin: 2em 0;
 }
+
