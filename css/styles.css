@@ -19,7 +19,7 @@ p {
     text-align: center;
 }
 
-
+/* ---- Class Selectors ---- */
 
 .main-nav li {
     display: block;
@@ -39,10 +39,6 @@ p {
 
 }
 
-.portfolio h2 {
-    margin: 2em 0;
-}
-
 .name {
     margin: auto;
     padding: .7em 0;
@@ -52,6 +48,12 @@ p {
     width: 60%;
 }
 
-.portfolio img {
+/* ---- ID Selectors ---- */
+
+#portfolio img {
     width: 90%;
+}
+
+#portfolio h2 {
+    margin: 2em 0;
 }
