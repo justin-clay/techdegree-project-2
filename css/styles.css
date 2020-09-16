@@ -1,7 +1,16 @@
 body {
-    background-color: whitesmoke;
     text-align: center;
+    font-family: 'Bitter', serif;
 }
+
+header {
+    background-color: whitesmoke;
+}
+
+img {
+    width: 60%;
+}
+
 
 .main-nav li {
     display: block;
@@ -17,12 +26,16 @@ body {
 }
 
 .main-nav a {
-     border: red 1px solid;
      padding: 1em;
-
 
 }
 
-img {
-    width: 60%;
+.portfolio h2 {
+    margin: 2em 0;
+}
+
+.name {
+    margin: auto;
+    padding: .7em 0;
+    font-family: 'Bitter', serif;
 }
