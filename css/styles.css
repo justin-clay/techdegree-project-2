@@ -24,6 +24,10 @@ hr {
     max-width: 90%;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* ---- Class Selectors ---- */
 
 
@@ -42,7 +46,6 @@ hr {
 
 .main-nav a {
      padding: 1em;
-     text-decoration: none;
      font-size: 1.2em;
      font-weight: bold;
      color: black;
@@ -73,7 +76,6 @@ hr {
 }
 
 .footer-name a {
-    text-decoration: none;
     color: black;
     font-weight: bold;
 }
