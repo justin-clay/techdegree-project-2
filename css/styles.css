@@ -2,6 +2,7 @@ body {
     text-align: center;
     font-family: 'Bitter', serif;
     margin: auto;
+    background-color: whitesmoke;
 }
 
 header {
@@ -19,12 +20,12 @@ p {
     text-align: center;
 }
 
-header,
-footer {
-    background-color: whitesmoke;
+hr {
+    max-width: 90%;
 }
 
 /* ---- Class Selectors ---- */
+
 
 .main-nav li {
     display: block;
@@ -41,7 +42,9 @@ footer {
 
 .main-nav a {
      padding: 1em;
-
+     text-decoration: none;
+     font-size: 1.2em;
+     font-weight: bold;
 }
 
 .name {
@@ -53,6 +56,7 @@ footer {
     width: 60%;
 }
 
+
 .footer-name h5 {
     float: left;
     margin: 1em;
@@ -63,8 +67,16 @@ footer {
     margin: 1em;
 }
 
+.calculator {
+    padding-bottom: 2em;
+}
+
 
 /* ---- ID Selectors ---- */
+
+#portfolio {
+    background-color: white;
+}
 
 #portfolio img {
     width: 90%;
@@ -74,3 +86,10 @@ footer {
     margin: 2em 0;
 }
 
+#contact {
+    padding: 1em 0;
+}
+
+#contact p {
+   padding: .5em; 
+}
