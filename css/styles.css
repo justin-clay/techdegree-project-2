@@ -128,6 +128,7 @@ a {
     .main-header img {
         width: 30%;
         float: right;
+        margin: 1em;
     }
 
     .main-header p {
@@ -136,15 +137,10 @@ a {
         padding: 2em 1em 1em;
     }
 
-    .main-header img,
-    .main-header p {
-        display: inline-block;
-        
+    .main-footer {
+        float: left;
     }
-
-    .marketing {
-        
-    }
+   
 
     #portfolio {
         float: left;
@@ -163,4 +159,8 @@ a {
         height: 350px;
         float: left;
     }
+
+    
+   
+
 }
