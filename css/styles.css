@@ -83,6 +83,11 @@ a {
 .footer-nav .mobile {
     color: black;
     font-weight: bold;
+    display: inline-block;
+}
+
+.footer-nav .tablet {
+    display: none;
 }
 
 
