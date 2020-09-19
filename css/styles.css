@@ -66,12 +66,12 @@ a {
 }
 
 
-.footer-name h5 {
+.footer-name {
     float: left;
     margin: 1em;
 }
 
-.footer-name a {
+.footer-nav {
     float: right;
     margin: 1em;
 }
@@ -80,7 +80,7 @@ a {
     padding-bottom: 2em;
 }
 
-.footer-name a {
+.footer-nav .mobile {
     color: black;
     font-weight: bold;
 }
