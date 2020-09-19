@@ -55,6 +55,10 @@ a {
      font-weight: bold;
 }
 
+ul a {
+    color: darkorange;
+}
+
 .name {
     margin: auto;
     padding: .7em 0;
