@@ -134,7 +134,7 @@ a:active {
 
 
 
-/* ---- Media Qurries ---- */
+/* ---- Media Qurries ---- Tablet---- */
  
 @media (min-width: 768px) {
 
@@ -186,7 +186,29 @@ a:active {
        margin-bottom: 5%;
     }
 
-    
-   
+
+}
+
+
+/* ---- Media Qurries ---- Desktop ---- */
+
+
+@media (min-width: 1024px) {
+
+    .name {
+        float: left;
+    }
+
+    .main-header {
+        padding: 1em;
+    }
+     
+    .main-nav ul {
+        float: right;
+    }
+
+    .main-nav {
+        overflow: hidden;
+    }
 
 }
