@@ -7,7 +7,7 @@ body {
     text-align: center;
     font-family: 'Bitter', serif;
     margin: auto;
-    background-color: whitesmoke;
+    background-color: blanchedalmond;
 }
 
 header {
@@ -127,7 +127,6 @@ a {
 
     .main-header {
         overflow: hidden;
-        background-color: rgb(218, 249, 255);
     }
 
     .main-nav li {
