@@ -108,3 +108,59 @@ a {
     color: rgba(71,71,71);
     font-weight: bold;
 }
+
+
+
+/* ---- Media Qurries ---- */
+ 
+@media (min-width: 768px) {
+
+    .main-header {
+        float: right;
+        background-color: rgb(218, 249, 255);
+    }
+
+    .main-nav li {
+        display: inline;
+        background: none;
+    }
+
+    .main-header img {
+        width: 30%;
+        float: right;
+    }
+
+    .main-header p {
+        width: 60%;
+        float: left;
+        padding: 2em 1em 1em;
+    }
+
+    .main-header img,
+    .main-header p {
+        display: inline-block;
+        
+    }
+
+    .marketing {
+        
+    }
+
+    #portfolio {
+        float: left;
+    }
+
+    img {
+        margin: 0;
+        padding: 0;
+    }
+
+    #portfolio div {
+        padding: 0;
+        margin: none;
+        display: inline-block;
+        width: 50%;
+        height: 350px;
+        float: left;
+    }
+}
