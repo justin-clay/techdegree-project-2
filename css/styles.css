@@ -100,6 +100,9 @@ a:active {
     display: none;
 }
 
+.main-footer {
+    overflow: hidden;
+}
 
 /* ---- ID Selectors ---- */
 
@@ -154,6 +157,10 @@ a:active {
         width: 60%;
         float: left;
         padding: 2em 1em 1em;
+    }
+
+    .main-footer {
+        padding: 2em 0;
     }
 
     .footer-nav .mobile {
