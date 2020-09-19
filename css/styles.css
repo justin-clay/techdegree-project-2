@@ -142,10 +142,14 @@ a {
         padding: 2em 1em 1em;
     }
 
-    .main-footer {
-       
+    .footer-nav .mobile {
+        display: none;
     }
-   
+
+    .footer-nav .tablet {
+        display: inline-block;
+        margin: 0 2em 0 0;
+    }
 
     #portfolio {
        overflow: hidden; 
