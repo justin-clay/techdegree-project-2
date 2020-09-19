@@ -11,7 +11,7 @@ header {
 }
 
 img {
-    margin: 1em;
+    /* margin: 1em; */
 }
 
 p {
@@ -116,7 +116,7 @@ a {
 @media (min-width: 768px) {
 
     .main-header {
-        float: right;
+        overflow: hidden;
         background-color: rgb(218, 249, 255);
     }
 
@@ -138,26 +138,22 @@ a {
     }
 
     .main-footer {
-        float: left;
+       
     }
    
 
     #portfolio {
-        float: left;
+       overflow: hidden; 
     }
 
     img {
-        margin: 0;
-        padding: 0;
+       
     }
 
     #portfolio div {
-        padding: 0;
-        margin: none;
-        display: inline-block;
-        width: 50%;
-        height: 350px;
-        float: left;
+       width: 50%;
+       float: left;
+       margin-bottom: 5%;
     }
 
     
