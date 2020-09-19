@@ -7,7 +7,7 @@ body {
     text-align: center;
     font-family: 'Bitter', serif;
     margin: auto;
-    background-color: blanchedalmond;
+    background-color: rgb(223, 241, 248);
 }
 
 header {
@@ -39,7 +39,7 @@ a {
 .main-nav li {
     display: block;
     padding: 1em 2em;
-    background-color: white;
+    background-color: rgb(166, 184, 201, .4);
     margin-bottom: .5em;
 
 }
@@ -53,7 +53,6 @@ a {
      padding: 1em;
      font-size: 1.2em;
      font-weight: bold;
-     color: black;
 }
 
 .name {
@@ -81,7 +80,6 @@ a {
 }
 
 .footer-nav .mobile {
-    color: black;
     font-weight: bold;
     display: inline-block;
 }
