@@ -106,7 +106,8 @@ a:active {
 
 /* ---- ID Selectors ---- */
 
-#portfolio {
+#portfolio,
+#skills {
     background-color: white;
     padding-top: .5em;
 }
