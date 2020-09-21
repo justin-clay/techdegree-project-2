@@ -7,7 +7,7 @@ body {
     text-align: center;
     font-family: 'Bitter', serif;
     margin: auto;
-    background-color: rgb(223, 241, 248);
+    background-color: rgba(0, 0, 0, 1);
 }
 
 header {
@@ -108,6 +108,11 @@ a:active {
 
 .main-footer {
     overflow: hidden;
+}
+
+.main-header,
+.main-footer {
+    color: white;
 }
 
 /* ---- ID Selectors ---- */
