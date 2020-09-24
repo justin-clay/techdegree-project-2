@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -15,9 +16,6 @@ header {
     padding-bottom: 2em;
 }
 
-img {
-    /* margin: 1em; */
-}
 
 p {
     max-width: 90%;
@@ -34,6 +32,8 @@ a {
 }
 
 /* ---- Class Selectors ---- */
+
+
 
 
 .main-nav li {
@@ -199,9 +199,6 @@ a:active {
        overflow: hidden; 
     }
 
-    img {
-       
-    }
 
     #portfolio div {
        width: 50%;
@@ -217,6 +214,7 @@ a:active {
 
 
 @media (min-width: 1024px) {
+
 
     .name {
        padding: 0;
