@@ -215,6 +215,10 @@ a:active {
 
 @media (min-width: 1024px) {
 
+    body {
+        width: 90%;
+    }
+
 
     .name {
        padding: 0;
