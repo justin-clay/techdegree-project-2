@@ -8,7 +8,7 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     margin: auto;
-    background-color: rgba(0, 0, 0, .95);
+    
 }
 
 header {
@@ -16,6 +16,19 @@ header {
     padding-bottom: 2em;
 }
 
+header,
+footer {
+    background-color: rgba(0, 0, 0, .95);
+}
+
+main {
+    background-color: white;
+}
+
+div {
+    width: 1200;
+    max-width: 100%;
+}
 
 p {
     max-width: 90%;
@@ -34,7 +47,11 @@ a {
 /* ---- Class Selectors ---- */
 
 
-
+.content {
+    width: 1360px;
+    max-width: 100%;
+    margin: auto;
+}
 
 .main-nav li {
     display: block;
@@ -120,7 +137,7 @@ a:active {
 
 #portfolio,
 #skills {
-    background-color: white;
+    
     padding-top: .5em;
 }
 
@@ -216,7 +233,7 @@ a:active {
 @media (min-width: 1024px) {
 
     body {
-        width: 90%;
+        
 
     }
 
