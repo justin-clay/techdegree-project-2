@@ -171,6 +171,10 @@ a:active {
     font-weight: bold;
 }
 
+#contact a:active {
+    color: firebrick;
+}
+
 
 
 /* ---- Media Qurries ---- Tablet---- */
