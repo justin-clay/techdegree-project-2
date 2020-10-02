@@ -62,8 +62,6 @@ a {
     width: 60%;
     min-width: 250px;
     border-radius: 10px;
-    
-
 }
 
 .main-nav ul {
@@ -236,10 +234,6 @@ a:active {
 
 @media (min-width: 1024px) {
 
-    body {
-        
-
-    }
 
 
     .name {
@@ -268,10 +262,7 @@ a:active {
         float: right;
     }
 
-    .float-wrapper {
-      
-    }
-
+    
     #portfolio div {
         width: 33.3333%;
     }
